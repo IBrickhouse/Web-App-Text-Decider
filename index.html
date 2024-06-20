@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Menu Image OCR</title>
+    <title>Menu Decider</title>
     <!-- Include Tailwind CSS from a CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
@@ -10,14 +10,17 @@
 <body class="bg-gray-100 font-sans">
     <div class="container">
         <div class="card">
-            <h1 class="text-2xl font-semibold mb-4">Image OCR Web App</h1>
+            
+            <h1 class="text-2xl font-semibold mb-4">Menu Genie</h1>
 
+            <h1> Are there too many things to choose from on the menu?</h1>
+            <h2> Let me help! </h2>
             <div class="mb-4">
                 <input type="file" id="imageInput" accept="image/*" class="p-2 border rounded-lg w-full">
             </div>
-            
+
             <div class="mb-4">
-                <button onclick="performOCR()" class="btn-primary w-full">Perform OCR</button>
+                <button onclick="performOCR()" class="btn-primary w-full">Choose!</button>
             </div>
 
             <div id="result" class="bg-white p-4 rounded-lg shadow-md"></div>
